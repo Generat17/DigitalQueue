@@ -1,0 +1,22 @@
+@import "@styles/variables.scss";
+
+.notification {
+  height: 5%;
+  width: 10%;
+  font-weight: bold;
+  font-size: 3vh;
+  border-radius: 10px;
+  background: rgb(75, 255, 0, 0.4);
+  color: rgb(0, 0, 0, 0.8);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1%;
+  left: 48%;
+  user-select: none;
+}
+
+.disable {
+  display: none;
+}

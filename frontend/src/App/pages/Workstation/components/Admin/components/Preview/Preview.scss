@@ -1,0 +1,44 @@
+@import "@styles/variables.scss";
+
+.preview {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 2vh 6vh;
+
+  .control {
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 3vh;
+      padding-top: $desktop-margin-space;
+    }
+
+    table {
+      font-size: 2vh;
+      text-align: left;
+      border-collapse: collapse;
+
+      td {
+        font-size: 3vh;
+        padding-top: 3vh;
+        font-weight: bold;
+      }
+
+      th {
+        padding-right: 6vh;
+        font-weight: normal;
+      }
+
+      tr {
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  }
+}

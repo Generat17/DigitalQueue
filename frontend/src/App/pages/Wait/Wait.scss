@@ -1,0 +1,45 @@
+@import "@styles/variables.scss";
+
+.wait {
+  background: $secondary-color;
+
+  font-family: $sans-serif;
+  color: $text-black-color;
+
+  height: 100%;
+
+  position: relative;
+
+  .content {
+    margin: 1% auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 13vh;
+      color: $primary-color;
+    }
+
+    h2 {
+      font-size: 5vh;
+    }
+
+    .qr-code {
+      width: 10%;
+      margin: 1% 0;
+    }
+
+    .button {
+      width: 30%;
+      text-align: center;
+      min-width: 350px;
+    }
+  }
+
+  .timer {
+    text-align: center;
+    margin: 0 auto;
+  }
+}

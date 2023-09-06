@@ -1,0 +1,14 @@
+@import "@styles/variables.scss";
+
+.header-standard {
+  color: $text-white-color;
+  background: $primary-color;
+
+  height: 10%;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

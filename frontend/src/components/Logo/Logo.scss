@@ -1,0 +1,17 @@
+@import "@styles/variables.scss";
+
+.logo {
+  color: $text-white-color;
+
+  font-size: 7vh;
+  font-weight: bold;
+  font-family: $serif;
+  font-style: italic;
+
+  user-select: none;
+}
+
+.inversion-logo {
+  color: $primary-color;
+  font-size: 20vh;
+}

@@ -1,0 +1,40 @@
+@import "@styles/variables.scss";
+
+.menu {
+  height: 100%;
+  background: $border-color;
+  padding: $desktop-margin-space;
+  font-size: 3vh;
+  font-weight: bold;
+  user-select: none;
+  box-shadow: 3px 0 0 0 #dddddd90;
+  white-space: nowrap;
+
+  .menu-button {
+    display: flex;
+    width: 100%;
+  }
+
+  .toggle:hover {
+    fill: $primary-color;
+    cursor: pointer;
+  }
+
+  .defaultButton {
+    border-bottom: 2px solid black;
+    padding: 5px;
+  }
+
+  .defaultButton:hover {
+    cursor: pointer;
+    color: $primary-color;
+    fill: $primary-color;
+  }
+
+  .selectButton {
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+    padding: 5px;
+    fill: $primary-color;
+  }
+}

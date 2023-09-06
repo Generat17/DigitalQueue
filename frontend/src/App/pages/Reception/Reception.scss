@@ -1,0 +1,50 @@
+@import "@styles/variables.scss";
+
+.reception {
+  height: 100%;
+  overflow: hidden;
+
+  .content {
+    display: flex;
+    height: 95%;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    .left-half {
+      background: $primary-color;
+
+      width: 50%;
+      padding: 1% 0 0 3%;
+      box-sizing: border-box;
+
+      .welcome-msg {
+        margin-top: 33%;
+
+        font-size: 6vh;
+        color: $text-white-color;
+      }
+    }
+
+    .right-half {
+      background: $secondary-color;
+
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      overflow: auto;
+
+      .inner-block {
+        width: 70%;
+
+        .info {
+          margin: 10% $desktop-margin-space 5% $desktop-margin-space;
+
+          font-size: 4vh;
+          color: $text-black-color;
+        }
+      }
+    }
+  }
+}

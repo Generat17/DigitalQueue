@@ -1,0 +1,48 @@
+// Цвета
+$yellow: #fce473;
+$green: #4cff00;
+$pink: #c71585;
+$gray: #f1f1f1;
+$blue: #1d90ff;
+$red: #e01b1a;
+$black: black;
+$white: white;
+
+$primary-color: $red;
+$secondary-color: $gray;
+$tertiary-color: $white;
+
+$border-color: #ddd;
+
+$text-white-color: $white;
+$text-black-color: $black;
+$text-red-color: $red;
+
+// Шрифты
+$serif: "RussianRail_G_Pro", Arial, sans-serif;
+$sans-serif: "IBM_Plex_Sans", Arial, sans-serif;
+$monospace: monospace;
+
+$primary-font: $sans-serif;
+$secondary-font: $serif;
+
+@font-face {
+  font-family: "RussianRail_G_Pro";
+  src: url("./fonts/russianrail-g-pro-medium.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "IBM_Plex_Sans";
+  src: url("./fonts/IBMPlexSans-Medium.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Расстояние
+$mobile-margin-space: 10px;
+$desktop-margin-space: 20px;
+
+$mobile-padding-space: 5px;
+$desktop-padding-space: 10px;

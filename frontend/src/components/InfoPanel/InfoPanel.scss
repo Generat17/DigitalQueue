@@ -1,0 +1,13 @@
+@import "@styles/variables.scss";
+
+.info-panel {
+  display: flex;
+  justify-content: space-between;
+  background: #1c3143;
+
+  color: $text-white-color;
+  font-family: $sans-serif;
+  font-weight: bold;
+  font-size: 4vh;
+  padding: 0 $desktop-margin-space;
+}

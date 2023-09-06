@@ -1,0 +1,21 @@
+@import "@styles/variables.scss";
+
+.confirmation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: $desktop-margin-space;
+
+  .response {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .button {
+      text-align: center;
+      width: 15%;
+      min-width: 120px;
+    }
+  }
+}

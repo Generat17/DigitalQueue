@@ -1,0 +1,17 @@
+@import "@styles/variables.scss";
+
+.button-small {
+  font-size: 1.4vh;
+  padding: 2px 4px;
+  background: $white;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: inline-block;
+}
+
+.button-small:hover {
+  font-size: 1.4vh;
+  color: $primary-color;
+}

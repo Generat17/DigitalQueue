@@ -1,0 +1,28 @@
+@import "@styles/variables.scss";
+
+input {
+  width: 100%;
+  padding: $desktop-padding-space;
+
+  font-size: 2.5vh;
+  font-family: $sans-serif;
+
+  box-sizing: border-box;
+
+  border: 2px solid $border-color;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus,
+input:hover,
+input:active {
+  border: 2px solid $primary-color;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 50px $tertiary-color inset !important;
+}

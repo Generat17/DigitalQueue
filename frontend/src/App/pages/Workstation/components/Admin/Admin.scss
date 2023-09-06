@@ -1,0 +1,16 @@
+@import "@styles/variables.scss";
+
+.admin {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  font-family: $sans-serif;
+
+  .content {
+    height: 92%;
+    width: 100%;
+    background: $secondary-color;
+    display: flex;
+  }
+}

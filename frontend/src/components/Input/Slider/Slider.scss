@@ -1,0 +1,51 @@
+@import "@styles/variables.scss";
+
+.switch {
+  display: inline-block;
+  height: 4vh;
+  position: relative;
+  width: 7vh;
+  margin-top: 1vh;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 0.25vh;
+  content: "";
+  height: 3.5vh;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 3.5vh;
+}
+
+input:checked + .slider {
+  background-color: $primary-color;
+}
+
+input:checked + .slider:before {
+  transform: translateX(2.6vh);
+}
+
+.slider.round {
+  border-radius: 2vh;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

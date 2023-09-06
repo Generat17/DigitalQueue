@@ -1,0 +1,16 @@
+@import "@styles/variables.scss";
+
+.header-auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 $desktop-margin-space;
+
+  background: $primary-color;
+
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: $sans-serif;
+  color: $text-white-color;
+}
