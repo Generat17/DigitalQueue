@@ -1,6 +1,6 @@
 # Сервис электронной очереди «DigitalQueue».
 
-## [Презентация функционала](/DigitalQueuePresentation.pptx)
+## [Презентация функционала](https://vk.cc/coyGPP)
 
 ## [Серверная часть](/backend)
 
